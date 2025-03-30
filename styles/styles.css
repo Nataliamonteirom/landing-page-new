@@ -51,3 +51,29 @@ p{
 img{
     width: 670px;
 }
+
+a{
+    color: #f8fafd;
+}
+
+a:hover{
+    color: #6e47dc;
+    transition:0 3s all;
+}
+
+#inscreva-se-btn{
+    border: 2px solid #6e47dc;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: #6e47dc;
+    color: #f8fafd;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
